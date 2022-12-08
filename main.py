@@ -5,6 +5,7 @@ from utils.Page import Page
 from utils.Part import Part
 
 
+
 def getCurrent(chrome_browser: webdriver):
     return chrome_browser.execute_script("return document.getElementsByClassName(\"bpx-player-ctrl-time-current\")[0].textContent")
 
